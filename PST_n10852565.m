@@ -84,9 +84,7 @@ hold off
 load('sampledata2023.mat')
 
 Sample_Experimental_Data(20, Data0);
-%%
 Sample_Experimental_Data(10, Data0);
-%%
 Sample_Experimental_Data(40, Data0);
 
 

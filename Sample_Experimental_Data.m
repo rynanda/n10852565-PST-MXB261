@@ -39,7 +39,7 @@ bar(x,p, 'FaceColor', 'blue', 'FaceAlpha', 0.5) % Bar graph for Data0
 hold on
 bar(x,q, 'FaceColor', 'red', 'FaceAlpha', 0.5) % Bar graph for DataNew on the same figure
 title(sprintf("Data0 (blue) vs. DataNew (red) for %d bins", bins))
-xlabel("Values")
+xlabel("Bin")
 ylabel("Probability")
 
 dkl_Mat  = []; % Initialise empty array to sum for Kullback-Leibler measurement
